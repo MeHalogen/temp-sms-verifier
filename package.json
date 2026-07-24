@@ -1,0 +1,42 @@
+{
+  "name": "temp-sms-verifier",
+  "version": "1.0.0",
+  "description": "Query open-source SMS gateways to receive registration confirmation and verification codes.",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "scripts": {
+    "build": "tsc",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run"
+  },
+  "keywords": [
+    "utility",
+    "temp-sms-verifier",
+    "sms",
+    "temp-number",
+    "verification",
+    "botting",
+    "scraper"
+  ],
+  "author": "Antigravity Factory Manager",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.8.0",
+    "vitest": "^3.2.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MeHalogen/temp-sms-verifier.git"
+  },
+  "homepage": "https://github.com/MeHalogen/temp-sms-verifier#readme"
+}
